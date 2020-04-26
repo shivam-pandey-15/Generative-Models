@@ -18,7 +18,6 @@ transform = transforms.Compose([transforms.ToTensor() ,transforms.Normalize([0.5
 data  = datasets.MNIST(root='./mnist_data',download =True , transform = transform)
 
 c =10
-
 z =62
 
 EPOCH = 1000
